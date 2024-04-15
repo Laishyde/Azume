@@ -7,6 +7,7 @@ import { ContatoComponent } from './views/contato/contato.component';
 import { HomeComponent } from './views/home/home.component';
 import { PortfolioComponent } from './views/portfolio/portfolio.component';
 import { ServicosComponent } from './views/servicos/servicos.component';
+import { HeaderComponent } from './shared/components/header/header.component';
 
 export const routes: Routes = [
     { path:'', redirectTo:'home',pathMatch:'full'},
@@ -17,5 +18,6 @@ export const routes: Routes = [
     { path: 'faq', component: FaqComponent },
     { path: 'home', component: HomeComponent },
     { path: 'portfolio', component: PortfolioComponent },
-    { path: 'servicos', component: ServicosComponent }
+    { path: 'servicos', component: ServicosComponent },
+    { path: 'header', component: HeaderComponent }
 ];
