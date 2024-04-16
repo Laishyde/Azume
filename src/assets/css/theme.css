@@ -1,3 +1,37 @@
+/*
+Theme Name: Boozy
+Theme URI: https://themewar.com/html/boozy
+Author: Themewar
+Author URI: https://themeforest.net/user/themewar
+Description: Boozy - Creative Agency Responsive HTML5 Template
+Version: 1.0.0
+License:
+License URI:
+*/
+
+
+/*==================================
+    [Table of contents]
+===================================
+    01. Home One
+    02. Home Two
+    03. Home Three
+    04. About Page
+    05. Service Page
+        05.1. Service Single Page
+    06. Career Page
+    07. Case Study Page
+    08. Blog Page
+        08.1. Blog Single Page
+    09. Portfolio 01 Page
+    10. Portfolio 02 Page
+    11. Contact Page
+    12. FOF/404 Page
+*/
+
+/*------------------------------------------------------
+/  01. Home One
+/------------------------------------------------------*/
 .header01,
 .header02,
 .header03{
@@ -169,7 +203,7 @@
     color: var(--primary-color);
 }
 /* Sub Menu */
-.mainMenu > ul > li > ul,
+.mainMenu > ul > li > ul, 
 .mainMenu > ul > li > ul > li > ul,
 .mainMenu > ul > li > ul > li > ul >li > ul{
     padding: 17px 0 17px;
@@ -228,7 +262,7 @@
     margin: 0;
     padding: 0px 30px 0px;
     width: 100%;
-
+    
     transition: all ease 250ms;
     -moz-transition: all ease 250ms;
     -webkit-transition: all ease 250ms;
@@ -252,11 +286,11 @@
     background-repeat: no-repeat;
     background-position: left 100%;
 }
-.mainMenu > ul > li > ul li:hover,
+.mainMenu > ul > li > ul li:hover, 
 .mainMenu > ul > li > ul li.current-menu-item{
     padding-left: 37px;
 }
-.mainMenu > ul > li > ul li:hover > a,
+.mainMenu > ul > li > ul li:hover > a, 
 .mainMenu > ul > li > ul li.current-menu-item > a{
     background-size: 100% 1px;
     background-image: -webkit-linear-gradient(top, #FFFFFF 0%, #FFFFFF 98%);
@@ -506,7 +540,7 @@
 }
 
 /*------------------------------------------------------
-/ SearchPopup
+/ SearchPopup 
 /------------------------------------------------------*/
 .popup_search_sec {
     position: absolute;
@@ -525,7 +559,7 @@
     z-index: 9991;
     opacity: 0;
     visibility: hidden;
-    cursor: url(../../../../assets/images/close.png), auto;
+    cursor: url(../images/close.png), auto;
     -webkit-transition: all 0.3s ease-in 0.7s;
     transition: all 0.3s ease-in 0.7s;
 }
@@ -740,7 +774,7 @@
     float: right;
     height: 22px;
     width: 22px;
-    background: url(../../../../assets/images/close.png) no-repeat center center;
+    background: url(../images/close.png) no-repeat center center;
     margin: 30px 0 0;
 }
 .popup_logo {
@@ -851,7 +885,7 @@
     background-clip: text;
     -webkit-background-clip: text;
     background-size: 200% 100%;
-    background-position-x: 100%;
+    background-position-x: 100%;    
     background-repeat: no-repeat;
     display: inline-block;
     position: relative;
@@ -1143,7 +1177,7 @@ h4.ps_auth_name {
     -webkit-transition: ease 350ms;
     transition: ease 350ms;
 }
-.project_item:hover .projectInfoContent i,
+.project_item:hover .projectInfoContent i, 
 .project_item:hover .projectInfoContent img {
     opacity: 1;
     visibility: visible;
@@ -1300,7 +1334,7 @@ h4.ps_auth_name {
 }
 
 /*------------------------------------------------------
-/ default owl dots
+/ default owl dots 
 /------------------------------------------------------*/
 .owl-carousel .owl-dots {
     display: -webkit-inline-box;
@@ -1518,7 +1552,7 @@ h2.oni-counter span{
     left: 0;
     width: 100%;
     height: 100%;
-    background: url(../../../../assets/images/team/item-bg.png)no-repeat scroll;
+    background: url(../images/team/item-bg.png)no-repeat scroll;
     background-size: contain;
     background-position: center;
     -webkit-animation: pulse 5s infinite both;
@@ -1550,7 +1584,7 @@ h2.oni-counter span{
     left:-120px;
     width:100%;
     height: 100%;
-    background: url(../../../../assets/images/shape/shape1.png)no-repeat scroll;
+    background: url(../images/shape/shape1.png)no-repeat scroll;
     background-size: cover;
     background-position: left bottom;
     opacity: 0;
@@ -2168,7 +2202,7 @@ aside.newslatter {
     letter-spacing: -0.35px;
     line-height: 18px;
 }
-.footerInfoNav ul{
+.footerInfoNav ul{ 
     margin:0;
     padding:0;
     text-align: end;
@@ -2347,7 +2381,7 @@ aside.newslatter {
         -webkit-transform: translateY(-30px);
                 transform: translateY(-30px);
         opacity: 0;
-    }
+    } 
 }
 @keyframes updown{
     0%{
@@ -2395,7 +2429,7 @@ aside.newslatter {
         -webkit-transform: translateY(-30px);
                 transform: translateY(-30px);
         opacity: 0;
-    }
+    } 
 }
 
 /*------------------------------------------------------
@@ -2438,7 +2472,7 @@ aside.newslatter {
 .hdSupportBtn i{
     margin-right: 11px;
     font-size: 30px;
-    position: relative;
+    position: relative; 
     top:7px;
     color:var(--primary-color);
 }
@@ -2493,7 +2527,7 @@ aside.newslatter {
 }
 
 /*------------------------------------------------------
-/ header02 .rightsidebar
+/ header02 .rightsidebar  
 /------------------------------------------------------*/
 .rightsidebar {
     position: absolute;
@@ -2512,7 +2546,7 @@ aside.newslatter {
     opacity: 0;
     background: rgba(28, 32, 53, 0.7);
     z-index: 9994;
-    cursor: url(../../../../assets/images/close.png), auto;
+    cursor: url(../images/close.png), auto;
     -webkit-transition: all 0.3s ease-in 0.6s;
     -webkit-transition: all 0.3s ease-in 0.86s;
     transition: all 0.3s ease-in 0.86s;
@@ -2785,7 +2819,7 @@ ul.social_item li a:hover {
 .fiexdBanner{
     position: relative;
     width: 100%;
-    height: auto;
+    height: auto; 
     padding: 266px 0 263px;
     z-index: 2;
     background: #ff5100 ;
@@ -2798,7 +2832,7 @@ ul.social_item li a:hover {
     right: 0;
     width: 100%;
     height: 100%;
-    background-image: url(../../../../assets/images/slider/banner1.jpg);
+    background-image: url(../images/slider/banner1.jpg);
     background-repeat: no-repeat;
     background-position: center center;
     background-attachment: scroll;
@@ -2865,7 +2899,7 @@ ul.social_item li a:hover {
 .fiexdBanner02{
     position: relative;
     width: 100%;
-    height: auto;
+    height: auto; 
     padding: 335px 0 243px;
     background: #111111 ;
     z-index: 2;
@@ -2878,7 +2912,7 @@ ul.social_item li a:hover {
     right: 0;
     width: 100%;
     height: 100%;
-    background-image: url(../../../../assets/images/slider/banner2.jpg);
+    background-image: url(../images/slider/banner2.jpg);
     background-repeat: no-repeat;
     background-position: center center;
     background-attachment: scroll;
@@ -2956,15 +2990,15 @@ ul.social_item li a:hover {
     height: auto;
     position: relative;
 }
-#rev_slider_1.rev_slider audio,
-#rev_slider_1.rev_slider embed,
-#rev_slider_1.rev_slider iframe,
-#rev_slider_1.rev_slider object,
+#rev_slider_1.rev_slider audio, 
+#rev_slider_1.rev_slider embed, 
+#rev_slider_1.rev_slider iframe, 
+#rev_slider_1.rev_slider object, 
 #rev_slider_1.rev_slider video,
-#rev_slider_2.rev_slider audio,
-#rev_slider_2.rev_slider embed,
-#rev_slider_2.rev_slider iframe,
-#rev_slider_2.rev_slider object,
+#rev_slider_2.rev_slider audio, 
+#rev_slider_2.rev_slider embed, 
+#rev_slider_2.rev_slider iframe, 
+#rev_slider_2.rev_slider object, 
 #rev_slider_2.rev_slider video{
     max-width: 100% !important;
     width: 100%;
@@ -3019,7 +3053,7 @@ ul.social_item li a:hover {
 }
 
 /*------------------------------------------------------
-/ Home two About image
+/ Home two About image  
 /------------------------------------------------------*/
 .aboutThumb_imges img{
     max-width: 100%;
@@ -3163,7 +3197,7 @@ ul.social_item li a:hover {
 }
 .serviceThumb02 > span{
     color: var(--primary-color);
-    -webkit-text-fill-color: transparent;
+    -webkit-text-fill-color: transparent; 
     -webkit-text-stroke-width: 1px;
     -webkit-text-stroke-color: var(--primary-color);
     display:inline-block;
@@ -3278,7 +3312,7 @@ ul.social_item li a:hover {
 }
 
 /*------------------------------------------------------
-/ Video play
+/ Video play  
 /------------------------------------------------------*/
 .videoPlayWrapper01{
     padding: 280px 0;
@@ -3300,7 +3334,7 @@ ul.social_item li a:hover {
     left:0;
     width:100%;
     height:100%;
-    background: url(../../../../assets/images/video_bg1.jpg)no-repeat scroll;
+    background: url(../images/video_bg1.jpg)no-repeat scroll;
     background-size: cover;
     background-position: center center;
     filter: grayscale(100%);
@@ -3419,7 +3453,7 @@ ul.social_item li a:hover {
     left: 0;
     width: 844px;
     height: 853px;
-    background-image: url(../../../../assets/images/shape/pbs2.png);
+    background-image: url(../images/shape/pbs2.png);
     background-repeat: no-repeat;
     background-attachment: scroll;
     background-size: auto;
@@ -3675,7 +3709,7 @@ a.srv_globaLinks{
     transition: all linear .1s;
     z-index:-1;
     opacity: 0;
-}
+} 
 @-webkit-keyframes BzrotateIn {
     0%{
         -webkit-transform-origin: center;
@@ -3883,7 +3917,7 @@ button.accordion-button:focus{
 }
 
 /*------------------------------------------------------
-/ service pricing table
+/ service pricing table  
 /------------------------------------------------------*/
 .srPricingItem {
     margin: 25px 22px 0 0;
@@ -3901,7 +3935,7 @@ button.accordion-button:focus{
     left: 29px;
     width: 98%;
     height: 100%;
-    background: url(../../../../assets/images/service/2.jpg)no-repeat scroll;
+    background: url(../images/service/2.jpg)no-repeat scroll;
     background-size: cover;
     background-position: center center;
     z-index: -1;
@@ -3979,7 +4013,7 @@ ul.srServiceList li {
     line-height: 28px;
     font-family: var(--primary-font);
     margin-bottom: 17px;
-    padding: 0 0 0 29px;
+    padding: 0 0 0 29px; 
     color: #FFF;
     position: relative;
 }
@@ -4074,7 +4108,7 @@ ul.srServiceList li span{
     top:-27px;
     right:0;
     left:auto;
-    background: url(../../../../assets/images/shape/srv1.png)no-repeat scroll;
+    background: url(../images/shape/srv1.png)no-repeat scroll;
     background-position: top right;
     background-size: auto;
     z-index: -1;
@@ -4116,14 +4150,14 @@ ul.srServiceList li span{
       }
       90% {
           opacity: .8;
-          -webkit-transform: scale3d(0.8, 0.8 0.8);
-          transform: scale3d(0.8, 0.8 0.8);
+          -webkit-transform: scale3d(0.8, 0., 0.8);
+          transform: scale3d(0.8, 0., 0.8);
           transition: linear .3s;
           -webkit-transition: linear .3s;
           -moz-transition: linear .3s;
       }
       100%{
-
+          
           opacity: .5;
           -webkit-transform: scale3d(0.7, 0.7, 0.7);
           transform: scale3d(0.7, 0.7, 0.7);
@@ -4132,12 +4166,12 @@ ul.srServiceList li span{
           -moz-transition: linear .3s;
       }
   }
-
+  
 @keyframes myZoomIn {
     0%{
         opacity: .6;
         -webkit-transform: scale3d(0.8, 0.8, 0.8);
-        transform: scale3d(0.8, 0.8 0.8);
+        transform: scale3d(0.8, 0.8, 0.8);
         transition: linear .3s;
         -webkit-transition: linear .3s;
         -moz-transition: linear .3s;
@@ -4175,7 +4209,7 @@ ul.srServiceList li span{
           -moz-transition: linear .3s;
       }
       100%{
-
+          
           opacity: .5;
           -webkit-transform: scale3d(0.7, 0.7, 0.7);
           transform: scale3d(0.7, 0.7, 0.7);
@@ -4668,7 +4702,7 @@ ul.srServiceList li span{
 .blDetailsNoSidebar .singleImgThumb img,
 .blGridNoSidebar .blogImgThumbnail img,
 .blListNoSidebar .blogImgThumbnail img{
-    width: 100%;
+    width: 100%; 
     height: auto;
 }
 .blogContent02 .iconWrapper.parallax-wrap {
@@ -4924,7 +4958,7 @@ ul.srServiceList li span{
     letter-spacing: -0.2px;
     font-family: var(--primary-font);
     display: inline-block;
-}
+}   
 .postTags{
     position: relative;
     display: -webkit-inline-box;
@@ -5475,7 +5509,7 @@ p.commentDesc {
     position: absolute;
     top:50%;
     left:0;
-    border:none;
+    border:none; 
     outline:none;
     box-shadow: none;
     width: 40px;
@@ -5658,7 +5692,7 @@ p.commentDesc {
     background-clip: text;
     -webkit-background-clip: text;
     background-color: #ff5100;
-    background-image: url(../../../../assets/images/foftextbg.jpg);
+    background-image: url(../images/foftextbg.jpg);
     background-position: 26% 61%;
     background-repeat: no-repeat;
     background-size: auto;
@@ -5679,7 +5713,7 @@ section.fiexdCirleAllSec {
     left: 0;
     width: 100%;
     height: auto;
-    z-index: 0;
+    z-index: 0;    
 }
 section.fiexdCirleAllSec img {
     position: fixed;
@@ -5688,20 +5722,20 @@ section.fiexdCirleAllSec img {
     right: 26.2%;
     width: 620px;
     height: 629px;
-    background-image: url(../../../../assets/images/shape/pbs1.png);
+    background-image: url(../images/shape/pbs1.png);
     background-repeat: no-repeat;
     background-repeat: no-repeat;
     background-attachment: scroll;
     background-size: auto;
     background-position: center;
-    z-index: 2;
-    -webkit-animation: BzrotateIn 30s linear infinite;
+    z-index: 2;    
+    -webkit-animation: BzrotateIn 30s linear infinite;    
             animation: BzrotateIn 30s linear infinite;
 }
 
 
-/*--------------------------------------------------------------------
-/                            Js Animation all Css
+/*-------------------------------------------------------------------- 
+/                            Js Animation all Css  
 /--------------------------------------------------------------------*/
 body #magicMouseCursor.is-hover{
     border-color: var(--primary-color) !important;
@@ -5722,8 +5756,8 @@ body #magicMouseCursor.is-hover{
 }
 
 
-/*-----------------------------------------------------
-/                   Magic-mous
+/*----------------------------------------------------- 
+/                   Magic-mous   
 /------------------------------------------------------*/
 #magic-mouse {
     position: absolute;
