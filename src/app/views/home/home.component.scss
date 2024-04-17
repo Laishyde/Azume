@@ -1,3 +1,5 @@
+@import url('../../../assets/css/style.scss');
+
 .main{
   background-color: black !important;
   height: 100px !important;
@@ -96,3 +98,12 @@
 .fiexdBanner_cont .boozyBTN{
   row-gap: 3.5px;
 }
+
+.serviceSection{
+  background: #111111;
+  padding:170px 0 0 ;
+}
+.serviceSection .button-wrap {
+  top: 1px;
+}
+
