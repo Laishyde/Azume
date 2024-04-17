@@ -1,9 +1,39 @@
+/*-----------------------------------------
+/  02. Variables
+/-----------------------------------------*/
+$primary-font: 'Jost', sans-serif;
+$secondary-font: 'Antonio', sans-serif;
+$body-font-size: 18px;
+$body-line-height: 36px;
+$body-font-weight: 400;
+$secondary-font-weight: 700;
+$body-color: #d0d0d0;
+$heading-color: #FFFFFF;
+$primary-color: #ff5100;
+$secondary-color: #FFFFFF;
+$dark-color: #000000;
+
+:root {
+  --primary-font: #{$primary-font};
+  --secondary-font: #{$secondary-font};
+  --body-font-size: #{$body-font-size};
+  --body-line-height: #{$body-line-height};
+  --body-font-weight: #{$body-font-weight};
+  --secondary-font-weight: #{$secondary-font-weight};
+  --body-color: #{$body-color};
+  --heading-color: #{$heading-color};
+  --primary-color: #{$primary-color};
+  --secondary-color: #{$secondary-color};
+  --dark-color: #{$dark-color};
+}
+
 h1, h2, h3, h4, h5, h6 {
   font-family: var(--secondary-font);
   font-weight: var(--secondary-font-weight);
-  color: #fff;
+  color:$secondary-color;
   margin: 0 0 15px;
 }
+
 .header01,
 .header02,
 .header03{
@@ -826,7 +856,7 @@ h1, h2, h3, h4, h5, h6 {
     font-size: 16px;
     font-family: var(--secondary-font);
     text-transform: uppercase;
-    color: var(--heading-color);
+    color: $secondary-color;
 }
 .serviceHeading a img {
     width: 18px;
@@ -963,7 +993,7 @@ h1, h2, h3, h4, h5, h6 {
     font-size: 16px;
     font-family: var(--secondary-font);
     text-transform: uppercase;
-    color: var(--heading-color);
+    color: $secondary-color;
 }
 .projectHeading a img {
     width: 18px;
@@ -994,7 +1024,7 @@ h1, h2, h3, h4, h5, h6 {
     font-size: 72px;
     line-height: 90px;
     letter-spacing: 0.72px;
-    color: var(--heading-color);
+    color: $secondary-color;
     text-transform: uppercase;
     position: relative;
     font-weight: 400;
@@ -1738,7 +1768,7 @@ h2.oni-counter span{
     font-size: 18px;
     line-height: 1;
     font-family: var(--secondary-font);
-    color: var(--heading-color);
+    color: $secondary-color;
     letter-spacing: -0.18px;
     font-weight: 400;
     text-transform: uppercase;
@@ -1798,7 +1828,7 @@ span.testimonialQuoat1 i {
     font-size: 24px;
     font-weight: 900;
     line-height: 1;
-    color: var(--heading-color);
+    color: $secondary-color;
     letter-spacing: -0.24px;
     text-transform: uppercase;
     text-align: center;
@@ -1945,7 +1975,7 @@ span.blogAuth a:hover{
 .blogContent h2{
     font-size: 24px;
     font-weight: 700;
-    color: var(--heading-color);
+    color: $secondary-color;
     line-height: 36px;
     letter-spacing: -0.24px;
     text-transform: uppercase;
@@ -1978,7 +2008,7 @@ p.blogDesc{
     font-size: 18px;
     line-height: 20px;
     font-weight: 700;
-    color: var(--heading-color);
+    color: $secondary-color;
     margin: 0 0 13px;
 }
 .about_widgetContent > a{
@@ -1986,7 +2016,7 @@ p.blogDesc{
     font-size: 30px;
     line-height: 1;
     font-weight: 400;
-    color: var(--heading-color);
+    color: $secondary-color;
     font-family: var(--secondary-font);
     text-decoration: none;
 }
@@ -2047,7 +2077,7 @@ footer .widgetTitle{
     font-size: 20px;
     line-height: 1;
     font-weight: 700;
-    color: var(--heading-color);
+    color: $secondary-color;
     text-transform: capitalize;
     margin-bottom: 37px;
 }
@@ -3372,12 +3402,12 @@ ul.social_item li a:hover {
     line-height: 1;
     text-transform: uppercase;
     letter-spacing: -0.9px;
-    color: var(--heading-color);
+    color: $secondary-color;
     font-family: var(--secondary-font);
     margin-bottom: 28px;
 }
 .about_cusWidget h3 span{
-    color: var(--heading-color);
+    color: $secondary-color;
     -webkit-text-fill-color: transparent;
     -webkit-text-stroke-width: 1px;
     -webkit-text-stroke-color: #FFF;
@@ -4642,7 +4672,7 @@ ul.srServiceList li span{
     line-height: 30px;
     letter-spacing: -0.24px;
     font-weight: 700;
-    color: var(--heading-color);
+    color: $secondary-color;
     margin: 0 0 28px;
     text-transform: uppercase;
 }
@@ -5055,7 +5085,7 @@ ul.srServiceList li span{
     font-size: 16px;
     line-height: 18px;
     font-weight: 500;
-    color: var(--heading-color);
+    color: $secondary-color;
     position: relative;
     left: 2px;
     margin: 0 0 7px;
@@ -5420,7 +5450,7 @@ p.commentDesc {
 .portFolioInfo02 h3 {
     font-size: 48px;
     font-weight: 500;
-    color: var(--heading-color);
+    color: $secondary-color;
     line-height: 1.1;
     letter-spacing: -0.48px;
     text-transform: uppercase;
