@@ -182,7 +182,7 @@ License URI:
     -webkit-transform: translateY(110%);
 }
 .mainMenu ul li.menu-item-has-children > a:after {
-    content: '\f078';
+  
     font-family: 'Font Awesome 6 Free';
     color: inherit;
     font-weight: 900;
@@ -5834,3 +5834,8 @@ body #magicMouseCursor.is-hover{
     visibility: hidden;
     pointer-events: none;
   }
+
+  .mainMenu > ul > li > a {
+    line-height: 1.42;
+
+}
