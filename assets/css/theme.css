@@ -2571,6 +2571,10 @@ aside.newslatter {
     -webkit-transition: all 0.6s ease-out 0s;
     transition: all 0.6s ease-out 0s;
 }
+ li{
+    list-style: none;
+   width: 120px;
+}
 .rightsidebarContent {
     max-width: 420px;
     height: 100%;
