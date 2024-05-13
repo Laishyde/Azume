@@ -321,7 +321,7 @@ License URI:
     font-size: 8px;
     position: absolute;
     top: 0px;
-    right: 25px;
+    right: 10px;
     display: inline-block;
     transition: all ease 250ms;
     -moz-transition: all ease 250ms;
@@ -359,7 +359,7 @@ License URI:
 }
 .hdOniSocial ul li{
     list-style: none;
-    width: 110px;
+    width: 80px;
 }
 
 .menu_btn{
