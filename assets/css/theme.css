@@ -2843,6 +2843,22 @@ ul.social_item li a:hover {
     z-index: 2;
     background: #ff5100 ;
 }
+@media (max-width:900px) {
+    .fiexdBanner::before{
+        background-image: url(../images/banner22.png) !important;
+    }
+    h2{
+        font-size: 50px !important;
+      
+    }
+    .about_widgetContent a {
+      width: 50px !important;
+      font-size: 20px !important;
+            
+    }
+
+    
+}
 .fiexdBanner::before{
     position: absolute;
     content:"";
