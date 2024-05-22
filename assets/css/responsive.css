@@ -931,6 +931,10 @@ License URI:
     h2 {
         line-height: 55px !important
     }
+  
+    .aboutContentColR::after{
+        width: 0;
+    }
 }
 
 
