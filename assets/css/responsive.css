@@ -925,6 +925,9 @@ License URI:
     .blogLeftSidebar{
         order: 2;
     }
+    h2 .strokeText{
+        font-size: 60px;
+    }
 }
 
 
