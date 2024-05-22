@@ -928,6 +928,9 @@ License URI:
     h2 .strokeText{
         font-size: 60px;
     }
+    h2 {
+        line-height: 55px !important
+    }
 }
 
 
