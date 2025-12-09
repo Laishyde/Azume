@@ -363,6 +363,7 @@ License URI:
         -ms-transition: none;
         border: none;
     }
+    
     .mainMenu ul li .sub-menu li {
         display: block;
         padding: 0;
