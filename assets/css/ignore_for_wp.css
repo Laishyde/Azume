@@ -272,12 +272,34 @@
     position: relative;
     z-index:9;
 }
+
+
 .aboutBanner{
-    background: url(../images/page-bn/abPb.png)no-repeat scroll;
-    background-size: cover;
+ 
+    width: 100%;
+    background: url(../images/page-bn/abPb.png);
+    background-repeat: no-repeat;
     background-position: center center;
-    background-color: #111111;
+    background-attachment: scroll;
+    background-size: cover;
+
 }
+@media (max-width: 600px) {
+    .aboutBanner {
+        background-image: url(../images/page-bn/flor.png); /* sua imagem mobile */
+     background-size: contain; 
+        background-position: center bottom; 
+        height: 90vw; /* ajuste proporcional */
+
+    
+  
+       
+     
+    }
+}
+
+
+
 .aboutSection02 {
     padding:150px 0 221px;
     background: #111111;
